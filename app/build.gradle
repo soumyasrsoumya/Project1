@@ -3,8 +3,8 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "com.example.integratyaudivideo"
-        minSdkVersion 16
+        applicationId "com.example.instagramcloneapp"
+        minSdkVersion 19
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
@@ -25,4 +25,8 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+
+    implementation "com.github.parse-community.Parse-SDK-Android:parse:1.18.6"
+    implementation 'com.github.Shashank02051997:FancyToast-Android:0.1.3'
+
 }
